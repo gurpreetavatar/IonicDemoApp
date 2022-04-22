@@ -1,0 +1,7 @@
+{
+  "name": "crownDigitals",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

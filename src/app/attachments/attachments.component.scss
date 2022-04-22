@@ -1,0 +1,28 @@
+.image-paceholder, .captured-image {
+    height: 90px;
+    width: 90px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #bebebe;
+    flex-direction: column;
+    position: relative;
+    .icon {
+        font-size: 21px;
+    }
+}
+.image-paceholder {
+    border: 2px dashed #bebebe;
+    font-size: 11px;
+}
+.captured-image {
+    background-color: #f2f2f2;
+    .close {
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        z-index: 1;
+    }
+}

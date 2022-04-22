@@ -1,0 +1,14 @@
+<div (click)="chooseMode()" *ngIf="!isImageCaptured">
+  <div class="image-paceholder">
+    <div class="icon">+</div>
+    <div>Add image</div>
+  </div>
+</div>
+<div *ngIf="isImageCaptured">
+  <div class="captured-image">
+    <span class="close" (click)="removeAttachment()">
+      <img src="./assets/delete.svg">
+    </span>
+    <img src="./assets/crown-ella.svg">
+  </div>
+</div>
